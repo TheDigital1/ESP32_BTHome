@@ -43,7 +43,7 @@ void setBeacon() {
   strServiceData += (char)11;     // Length
   strServiceData += (char)0x09;   // Type = Complete local name
   String device_name = "myBTHome_1"; //needs to only be 10 characters long
-  char str_buf[10]; // Actually 11 in size as its 0 indexed
+  char str_buf[11]; //FIXED, Changed to size 11
   device_name.toCharArray(str_buf,11); // Length is 11 here as we need to capture the null terminator
   strServiceData += str_buf;
 
