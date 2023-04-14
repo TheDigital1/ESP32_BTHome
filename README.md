@@ -1,4 +1,4 @@
-*** Thanks @Chreece New Updated version here https://github.com/Chreece/BTHomeV2-ESP32-example ***
+*** Thanks @Chreece New updated project that supports BTHome V2 here https://github.com/Chreece/BTHomeV2-ESP32-example ***
 
 # ESP32_BTHome
 This project aims to show how you can use a ESP32 and Arduino libraries to send BLE advertisement packets in the BTHome format.
